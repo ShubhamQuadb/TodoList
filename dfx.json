@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "tsk_backend": {
+      "main": "src/tsk_backend/main.mo",
+      "type": "motoko"
+    },
+    "tsk_frontend": {
+      "dependencies": [
+        "tsk_backend"
+      ],
+      "source": [
+        "src/tsk_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "tsk_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}

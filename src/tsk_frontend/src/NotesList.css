@@ -1,0 +1,15 @@
+.icon {
+    width: 1em;
+    cursor: pointer;
+    filter: brightness(75%); /* light gray */
+    transition: filter 0.3s;
+  }
+  
+  .edit-icon:hover {
+    filter: invert(30%) sepia(97%) saturate(2275%) hue-rotate(186deg) brightness(93%) contrast(108%); /* blue */
+  }
+  
+  .delete-icon:hover {
+    filter: invert(15%) sepia(88%) saturate(7471%) hue-rotate(355deg) brightness(93%) contrast(108%); /* dark red */
+  }
+  
